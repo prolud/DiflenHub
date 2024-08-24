@@ -191,4 +191,4 @@ Error generating stack: `+o.message+`
     cursor: pointer;
     height: 2rem;
   }
-`;function y0(){return F.jsxs(F.Fragment,{children:[F.jsx(r1,{children:F.jsx(v0,{})}),F.jsx(g0,{})]})}ui.createRoot(document.getElementById("root")).render(F.jsx(z.StrictMode,{children:F.jsx(y0,{})}));
+`;function y0(){return F.jsxs(F.Fragment,{children:[F.jsx(r1,{basename:"/DiflenHub",children:F.jsx(v0,{})}),F.jsx(g0,{})]})}ui.createRoot(document.getElementById("root")).render(F.jsx(z.StrictMode,{children:F.jsx(y0,{})}));
