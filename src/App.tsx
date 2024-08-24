@@ -9,7 +9,7 @@ import { GlobalStyle } from './styles/global.ts'
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/DiflenHub'>
         <Router />
       </BrowserRouter>
 
