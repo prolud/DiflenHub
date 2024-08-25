@@ -15,6 +15,8 @@ export const HomePage = styled.main`
     font-size: 2rem;
     font-weight: 700;
   }
+
+  height: 100%;
 `;
 
 export const Categorias = styled.div`
@@ -48,10 +50,10 @@ export const VerTodos = styled.a`
   border: 2px solid ${themes.default.neutro_0};
   border-radius: 16px;
   color: ${themes.default.neutro_10};
-  padding: 1rem;
   margin-left: auto;
-  width: 10rem;
   cursor: pointer;
+  padding: .3rem;
+  width: 10rem;
 
   &:hover {
     background-color: transparent;  
@@ -59,5 +61,5 @@ export const VerTodos = styled.a`
   }
 
 
-  transition: all .15s;
+  transition: all .1s;
 `;
