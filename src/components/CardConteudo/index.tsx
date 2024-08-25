@@ -1,4 +1,4 @@
-import { Card } from "./CardConteudoStyled";
+import { Card } from "./styles";
 
 
 export default function CardConteudo() {

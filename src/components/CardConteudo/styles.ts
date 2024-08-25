@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { themes } from "../../../../../styles/themes/themes";
+import { themes } from "../../styles/themes";
 
 export const Card = styled.div`
   height: 12rem;
-  width: 18rem;
+  min-width: 18rem;
 
   background-color: ${themes.default.neutro_6};
   border-radius: 16px;
@@ -29,10 +29,6 @@ export const Card = styled.div`
     }
     
     animation: loadingBackground .8s infinite linear;
-  }
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
   }
   
   transition: background-color .15s, width .15s;

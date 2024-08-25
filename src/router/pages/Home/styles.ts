@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { themes, sidePaddings } from "../../../styles/themes/themes";
+import { themes, sidePaddings } from "../../../styles/themes";
 
 export const HomePage = styled.main`
   ${sidePaddings}
@@ -10,12 +10,30 @@ export const HomePage = styled.main`
   gap: 1rem;
 
   background-color: ${themes.default.neutro_9};
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+`;
+
+export const Categorias = styled.div`
+  @media screen and (min-width: 1490px) {
+    display: flex;
+    justify-content: center;
+  }
+`;
+
+export const CenterCategorias = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 `;
 
 export const Slider = styled.ul`  
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  overflow-x: auto;
   gap: 1rem;
   padding: .5rem 0;
 `;
@@ -30,7 +48,8 @@ export const VerTodos = styled.a`
   border: 2px solid ${themes.default.neutro_0};
   border-radius: 16px;
   color: ${themes.default.neutro_10};
-  padding: .5rem;
+  padding: 1rem;
+  margin-left: auto;
   width: 10rem;
   cursor: pointer;
 
@@ -38,6 +57,7 @@ export const VerTodos = styled.a`
     background-color: transparent;  
     color: ${themes.default.neutro_0};
   }
+
 
   transition: all .15s;
 `;

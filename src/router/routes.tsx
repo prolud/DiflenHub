@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 
 import DefaultLayout from './layouts/DefaultLayout/DefaultLayout'
 
-import Home from './pages/home/Home'
+import Home from './pages/Home'
 
 export default function Router() {
   return (

@@ -1,4 +1,4 @@
-import { HeaderComponent } from "./HeaderStyled"
+import { HeaderComponent } from "./styles"
 
 export default function Header() {
   return (

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { sidePaddings, themes } from "../../styles/themes/themes";
+import { sidePaddings, themes } from "../../styles/themes";
 
 export const HeaderComponent = styled.header`
   ${sidePaddings}
