@@ -75,8 +75,8 @@ Error generating stack: `+o.message+`
   }
 
   @media screen and (max-width: 768px) {
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   transition: padding-right .15s, padding-left .15s;
