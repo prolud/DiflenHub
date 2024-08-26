@@ -44,8 +44,10 @@ export const EntrarButton = styled(BaseButton)`
   &:hover {
     border: solid ${themes.default.neutro_0} 2px;
   }
-`;
+  `;
+
 export const RegistrarButton = styled(BaseButton)`
+  color: ${themes.default.neutro_10};
   border: solid ${themes.default.neutro_0} 2px;
   &:hover {
     color: ${themes.default.neutro_0};
