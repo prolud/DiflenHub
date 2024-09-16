@@ -23,6 +23,7 @@ export default function Home() {
                       Name={category.Name}
                       Url={category.Url}
                       ShowOnHome={category.ShowOnHome}
+                      Description={category.Description}
                     />
                   )
                 )
