@@ -1,9 +1,12 @@
-import CategoryCard from "../../../components/CategoryCard";
+import Card from "../../../components/Card";
 import { Categories, CenterCategories, HomePage, Slider, VerTodos } from "./styles";
 import { ArrowCircleRight } from "phosphor-react";
 import { categories } from '../../../data/categories'
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate()
+  
   return (
     <HomePage>
       <Categories>
@@ -14,7 +17,7 @@ export default function Home() {
               categories.map(
                 (category, idx) => (
                   category.ShowOnHome && (
-                    <CategoryCard
+                    <Card
                       key={idx}
                       Img={category.Img}
                       Name={category.Name}
@@ -26,7 +29,7 @@ export default function Home() {
               )
             }
           </Slider>
-          <VerTodos>
+          <VerTodos onClick={() => navigate("/Categories")}>
             <p>Ver todos</p>
             <ArrowCircleRight size={'2rem'} />
           </VerTodos>
