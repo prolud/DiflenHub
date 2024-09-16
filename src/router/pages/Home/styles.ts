@@ -16,17 +16,17 @@ export const HomePage = styled.main`
     font-weight: 700;
   }
 
-  height: 100%;
+  height: 100vh;
 `;
 
-export const Categorias = styled.div`
+export const Categories = styled.div`
   @media screen and (min-width: 1490px) {
     display: flex;
     justify-content: center;
   }
 `;
 
-export const CenterCategorias = styled.div`
+export const CenterCategories = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
