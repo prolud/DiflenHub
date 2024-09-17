@@ -212,7 +212,7 @@ Error generating stack: `+o.message+`
     background-position: center;
 `;Ee.p`
     white-space: pre-wrap;
-`;function V0(){return T.jsx(U0,{children:Xd.map((e,t)=>T.jsx(B0,{children:T.jsx(W0,{$Img:e.Img})},t))})}function H0(){return T.jsx(m1,{children:T.jsxs(sr,{path:"/",element:T.jsx(E0,{}),children:[T.jsx(sr,{path:"/Home",element:T.jsx(A0,{})}),T.jsx(sr,{path:"/Categories",element:T.jsx(V0,{})}),T.jsx(sr,{path:"/*",element:T.jsx(d1,{to:"/Home"})})]})})}const Q0=w0`
+`;function V0(){return T.jsx(U0,{children:Xd.map((e,t)=>T.jsx(B0,{children:T.jsx(W0,{$Img:e.Img})},t))})}function H0(){return T.jsx(m1,{children:T.jsxs(sr,{path:"/DiflenHub",element:T.jsx(E0,{}),children:[T.jsx(sr,{path:"/Home",element:T.jsx(A0,{})}),T.jsx(sr,{path:"/Categories",element:T.jsx(V0,{})}),T.jsx(sr,{path:"/*",element:T.jsx(d1,{to:"/Home"})})]})})}const Q0=w0`
   * {
     margin: 0;
     padding: 0;
