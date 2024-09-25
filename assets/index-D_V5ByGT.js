@@ -212,7 +212,7 @@ Error generating stack: `+o.message+`
     background-position: center;
 `;Ee.p`
     white-space: pre-wrap;
-`;function W0(){return T.jsx(A0,{children:Gd.map((e,t)=>T.jsx(U0,{children:T.jsx(B0,{$Img:e.Img})},t))})}function V0(){return T.jsx(h1,{children:T.jsxs(_l,{path:"/",element:T.jsx(x0,{}),children:[T.jsx(_l,{path:"/Home",element:T.jsx(M0,{})}),T.jsx(_l,{path:"/Categories",element:T.jsx(W0,{})})]})})}const H0=y0`
+`;function W0(){return T.jsx(A0,{children:Gd.map((e,t)=>T.jsx(U0,{children:T.jsx(B0,{$Img:e.Img})},t))})}function V0(){return T.jsx(h1,{children:T.jsxs(_l,{path:"/",element:T.jsx(x0,{}),children:[T.jsx(_l,{path:"/",element:T.jsx(M0,{})}),T.jsx(_l,{path:"/Categories",element:T.jsx(W0,{})})]})})}const H0=y0`
   * {
     margin: 0;
     padding: 0;
