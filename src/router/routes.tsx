@@ -10,8 +10,12 @@ export default function Router() {
   return (
     <Routes>
       <Route path='/' element={<DefaultLayout />}>
-        <Route path='/Home' element={<Home />} />
-        <Route path='/Categories' element={<Categories />} />
+      
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+
+        <Route path='/categories' element={<Categories />} />
+
         <Route path='/*' element={<NotFound />} />
       </Route>
     </Routes>
