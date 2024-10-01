@@ -54,12 +54,12 @@ export const VerTodos = styled.a`
   cursor: pointer;
   padding: .3rem;
   width: 10rem;
+  height: 3rem;
 
   &:hover {
     background-color: transparent;  
     color: ${themes.default.neutro_0};
   }
-
 
   transition: all .1s;
 `;

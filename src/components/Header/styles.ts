@@ -5,11 +5,11 @@ export const HeaderComponent = styled.header`
   ${sidePaddings}
 
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   width: 100%;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  height: 5rem;
 
   background-color: ${themes.default.neutro_6};
   font-family: "Archivo Black";
