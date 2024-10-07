@@ -39,7 +39,7 @@ export default function Home() {
           <Slider>
             {
               categories?.map(
-                (categorie, idx) => (
+                (_, idx) => (
                   <>
                     <Card key={idx}/>
                   </>
